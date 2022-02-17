@@ -1,0 +1,103 @@
+.container-1 {
+  border: 3px solid teal;
+  border-radius: 10px;
+  box-shadow: 10px 10px powderblue;
+  margin-left: 400px;
+  margin-right: 100px;
+  padding-top: 20px;
+  width: 50vw;
+  display: flex;
+  align-items: center;
+}
+
+.account {
+  margin-left: 100px;
+  padding-top: 50px;
+  align: center;
+}
+
+.account p {
+  margin: 0;
+}
+
+.account__password {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 700px;
+  padding-top: 0;
+  height: 63vh;
+}
+
+.old_password,
+.new_password,
+.repeat_password,
+.change__password {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.account__email p {
+  font-size: 20px;
+  color: #15344a;
+  font-weight: 600;
+  padding-left: 40px;
+}
+
+.account__password-title {
+  margin-top: 10px !important;
+  color: teal;
+  align-text: center;
+  font-size: 40px;
+  font-weight: 400;
+}
+.account__password-p {
+  font-size: 20px;
+  color: #15344a;
+  font-weight: 400;
+}
+.account__password input {
+  height: 35px;
+  width: 300px;
+  border: 0.5px solid teal;
+}
+.account__password input:focus {
+  outline: none !important;
+  border: 3px solid teal;
+}
+
+.change__password button {
+  padding: 10px 60px 10px 60px;
+  color: white;
+  background-color: turquoise;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 10px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.change__password button:hover {
+  padding: 10px 60px 10px 60px;
+  color: #15344a;
+  background-color: transparent;
+  font-size: 25px;
+  font-weight: 400;
+  margin-top: 10px;
+  border: 1px solid #15344a;
+  cursor: pointer;
+}
+
+/* input[type=password]{
+    width: 400px;
+    height: 30px;
+    margin: 8px 0;
+    border: 1px solid teal;
+    border-radius: 4px;
+}
+
+input[type=password]:hover{
+    border-color: teal;
+} */

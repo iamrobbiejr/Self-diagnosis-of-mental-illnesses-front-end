@@ -1,0 +1,7 @@
+.app{
+  background: url('./images/bg-image.jpg');
+  background-size: cover;
+  width:100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}

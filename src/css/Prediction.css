@@ -1,0 +1,45 @@
+.prediction{
+    width: 700px;
+    height: 250px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.prediction__button{
+    border:1px solid white;
+    padding:10px;
+    background-color: turquoise;
+    color:white;
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight: 700;
+    width:200px; 
+    cursor: pointer;
+}
+
+.prediction__button:hover{
+   border:1px solid black;
+   padding:10px;
+   background-color: transparent;
+   color:teal;
+   letter-spacing: 2px;
+   font-size: 18px;
+   font-weight: 700;
+   width:200px; 
+   cursor: pointer;
+}
+
+.prediction__content{
+    font-size: 30px;
+    color:#15344a;
+    font-weight: 600;
+}
+
+.prediction__pred{
+    font-size: 18px;
+    color:teal;
+    font-weight: 900;
+}

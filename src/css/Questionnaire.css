@@ -1,0 +1,123 @@
+.questions{
+    margin-left: 300px;
+    padding-top: 50px;
+}
+.questions__eachquestion{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    width:1000px;
+    height: 70vh;
+    /*border: 1px solid black; */
+}
+.questions__eachquestion p{
+    margin:0;
+}
+
+.question__status {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0px;
+    
+}
+.question__status p{
+    font-size: 30px;
+    color:white;
+    font-weight: 700;
+    background-color: turquoise;
+    padding:10px;
+    border-radius: 20px;
+}
+
+.questions__eachquestion-question{
+    display: flex;
+    width:100%;
+    justify-content: flex-start;
+    margin-left: 40px;
+}
+.questions__eachquestion-question{
+    display: flex;
+    flex-direction: column;
+}
+
+.question__question{
+    font-size: 25px;
+    color: #15344a;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding-top: 30px ;
+}
+.question__heading{
+    font-size: 30px;
+    color:#15344a;
+}
+.questions__eachquestion-options{
+    display: flex;
+    flex-wrap: wrap;
+    margin:10px;
+}
+
+.questions__eachquestion-option p{
+   border: 2px solid white;
+   background-color: turquoise;
+   color:black;
+   font-weight: 600;
+   font-size: 25px;
+   padding:15px 80px 15px 80px;
+   margin: 50px 0px 0px 50px ;
+   cursor: pointer;
+   border-radius: 20px;
+
+}
+
+.questions__eachquestion-option p:hover{
+    border: 2px solid teal;
+    background-color: teal;
+    color:white;
+    font-weight: 600;
+    font-size: 25px;
+    padding:15px 80px 15px 80px;
+    margin: 50px 0px 0px 50px ;
+    cursor: pointer;
+    border-radius: 15px;
+    
+ }
+
+ .start__block{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+ }
+
+ .start__block button{
+     border:1px solid white;
+     padding:15px;
+     background-color: turquoise;
+     color:white;
+     letter-spacing: 2px;
+     font-size: 25px;
+     font-weight: 700;
+     width:300px; 
+     cursor: pointer;
+ }
+
+ .start__block button:hover{
+    border:1px solid black;
+    padding:15px;
+    background-color: transparent;
+    color:teal;
+    letter-spacing: 2px;
+    font-size: 30px;
+    font-weight: 700;
+    width:300px; 
+    cursor: pointer;
+}
+
+.pred__loading{
+    font-size: 40px;
+    color:#15344a;
+    margin-top: 50px;
+}

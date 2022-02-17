@@ -1,0 +1,98 @@
+.reports{
+    margin-left: 320px;
+    padding-top: 50px;
+}
+
+.reports__container{
+    display: flex;
+    width:80vw !important;
+    flex-wrap: wrap;
+}
+
+.each__report{
+    display: flex;
+    flex-direction: column;
+    margin:40px 40px 40px 40px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 15px 25px 20px 25px;
+    align-items: center;
+    background-color: #def7fc;
+    box-shadow: 10px 10px powderblue;
+}
+
+.report__date{
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 800;
+    color:#15344a;
+}
+
+.report__time{
+    font-weight: 600;
+    color:#15344a;
+    margin-top: 10px;
+}
+
+.report__show{
+    padding:5px 25px 5px 25px;
+    color:white;
+    background-color: teal;
+    font-weight: 900;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.report__show:hover{
+    background-color: #15344a;
+}
+
+.report__modal{
+    width:50vw;
+    height:50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.report__modal .report__date,.report__modal .pred{
+    padding:0px 20px 10px 0px;
+    margin: 0px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color:#15344a;
+    letter-spacing: 1pt;
+}
+
+.report__modal .report__date span,.report__modal .pred span{
+    font-weight: 900;
+    font-size: 23px;
+    color:teal;
+}
+
+.report__modal .title{
+    font-size: 30px;
+    color:#15344a;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-style: italic;
+}
+
+.report__modal button{
+    border:1px solid white;
+    padding:10px 40px 10px 40px;
+    background-color: turquoise;
+    color:white;
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.report__modal button:hover{
+    color:#15344a;
+    background-color: transparent;
+    border:1px solid teal;
+}

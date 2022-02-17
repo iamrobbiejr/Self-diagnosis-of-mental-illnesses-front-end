@@ -1,0 +1,31 @@
+
+.con{
+    margin-top: 0px;
+    padding-top:90px ;
+   
+}
+.log{
+   
+    height: 100vh;
+    display: flex;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    height:70vh;
+    padding:20px;
+    border:1px solid #15344a;
+    border-radius: 10px;
+    width:45vh;
+    text-align: center;
+   /* background-color: teal; */
+}
+
+.login__image img{
+    width:60vw;
+    height: 100vh;
+    filter: blur(1px);
+  -webkit-filter: blur(1px);
+    
+}
